@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign If Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sub-container">
+            <div class="left-container" id="signIn">
+                <div class="left">
+                    <h1 class="a-heading">SIGN IN</h1>
+                    <form class="Login">
+                        <input type="email" placeholder="Email">
+                        <input type="password" placeholder="Password">
+                        <p class="f-password">Forgot Password?</p>
+                        <button type="submit" class="s-button">SIGN IN</button>
+                        <p class="n-new">New Member <i class="t-button" aria-hidden="true" onclick="showSignup()">Sign Up New</i></p>
+                    </form>
+                </div>
+            </div>
+            <div class="right-container" id="signUp">
+                <div class="right">
+                     <h1 class="a-heading"> SIGN UP</h1>
+                     <form class="signup">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                        <input type="password" placeholder="Password">
+                        <button type="submit" class="s-button">SIGN UP</button>
+                        <p class="n-new">Already have an account? <i class="i-button" aria-hidden="true" onclick="hideSignup()">Sign in</i></p>
+                     </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    
+    <script src="main.js"></script>
+</body>
+</html>
